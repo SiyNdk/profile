@@ -1,0 +1,66 @@
+body{
+  background: #DEF2FB;
+}
+h1 {
+    color: green;
+    font-size: 32px;
+    font-weight: 900;
+}
+h1,
+h2,
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a{
+   background-color: #6C75DE;
+   color: white;
+   border-radius: 4px;
+   text-decoration: none;
+   padding: 15px 10px;
+
+
+}
+
+a:hover {
+  background-color: green;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline >li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.img {
+  border-radius: 5%;
+}
